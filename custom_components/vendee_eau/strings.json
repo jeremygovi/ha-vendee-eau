@@ -1,0 +1,47 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Vendee Eau",
+        "description": "Connect your Vendee Eau customer account. Technical IDs are discovered automatically.",
+        "data": {
+          "username": "Username",
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect",
+      "invalid_auth": "Invalid authentication",
+      "unknown": "Unexpected error"
+    },
+    "abort": {
+      "already_configured": "This account is already configured"
+    }
+  },
+  "entity": {
+    "sensor": {
+      "abonnement_id": {
+        "name": "Subscription ID"
+      },
+      "point_installation_id": {
+        "name": "Installation point ID"
+      },
+      "equipement_id": {
+        "name": "Equipment ID"
+      },
+      "latest_consumption": {
+        "name": "Latest consumption"
+      },
+      "latest_consumption_date": {
+        "name": "Latest consumption date"
+      },
+      "consumption_points": {
+        "name": "Consumption points"
+      },
+      "consumption_total": {
+        "name": "Consumption total"
+      }
+    }
+  }
+}

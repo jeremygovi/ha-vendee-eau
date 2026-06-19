@@ -1,0 +1,11 @@
+{
+  "domain": "vendee_eau",
+  "name": "Vendee Eau",
+  "codeowners": ["@jeremygovi"],
+  "config_flow": true,
+  "documentation": "https://github.com/jeremygovi/ha-vendee-eau",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/jeremygovi/ha-vendee-eau/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}

@@ -1,0 +1,47 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Vendee Eau",
+        "description": "Connectez votre compte client Vendee Eau. Les identifiants techniques sont detectes automatiquement.",
+        "data": {
+          "username": "Identifiant",
+          "password": "Mot de passe"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Connexion impossible",
+      "invalid_auth": "Identifiants invalides",
+      "unknown": "Erreur inattendue"
+    },
+    "abort": {
+      "already_configured": "Ce compte est deja configure"
+    }
+  },
+  "entity": {
+    "sensor": {
+      "abonnement_id": {
+        "name": "Identifiant abonnement"
+      },
+      "point_installation_id": {
+        "name": "Identifiant point d'installation"
+      },
+      "equipement_id": {
+        "name": "Identifiant equipement"
+      },
+      "latest_consumption": {
+        "name": "Derniere consommation"
+      },
+      "latest_consumption_date": {
+        "name": "Date derniere consommation"
+      },
+      "consumption_points": {
+        "name": "Points de consommation"
+      },
+      "consumption_total": {
+        "name": "Total consommation"
+      }
+    }
+  }
+}
